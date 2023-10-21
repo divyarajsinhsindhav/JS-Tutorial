@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator.js</title>
+  </head>
+  <body>
+    <script>
+      console.log("Welcome to The JS Tutorial");
+
+      let number1 = Number(prompt("Enter number 1: "));
+      let number2 = Number(prompt("Enter number 2: "));
+      let operator = prompt("Enter operator: ");
+
+      if (operator === "+") {
+        console.log(number1 + number2);
+      } else if (operator === "-") {
+        console.log(number1 - number2);
+      } else if (operator === "*") {
+        console.log(number1 * number2);
+      } else if (operator === "/") {
+        console.log(number1 / number2);
+      } else if (operator === "%") {
+        console.log(number1 % number2);
+      } else {
+        console.log("Enter a valid operator");
+      }
+    </script>
+  </body>
+</html>
