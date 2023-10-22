@@ -36,13 +36,13 @@ function getResult(playerChoice, computerChoice) {
     score = 0
 
   
-  } else if (playerChoice === 'rock' && computerChoice === 'scissors') {
+  } else if (playerChoice === "Rock" && computerChoice === "Scissors") {
     score = 1
 
-  } else if (playerChoice === "paper" && computerChoice === "rock") {
+  } else if (playerChoice === "Paper" && computerChoice === "Rock") {
     score = 1
 
-  } else if (playerChoice === "scissors" && computerChoice === "paper") {
+  } else if (playerChoice === "Scissors" && computerChoice === "Paper") {
     score = 1
 
   // Otherwise human loses (aka set score to -1)
