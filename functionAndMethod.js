@@ -42,4 +42,18 @@ array.forEach(element => {
 });
 
 //Map
+/*
+it's create new array based on return value of array
+*/
+let newArray = array.map((val) => {
+  return val*2;
+})
+console.log(newArray);
+
+//Filter 
+let filterArray = array.filter((val) => {
+  return val % 2 === 0;
+});
+console.log(filterArray);
+
 
