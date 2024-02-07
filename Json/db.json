@@ -1,0 +1,95 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Smartphone",
+      "brand": "XYZ",
+      "price": 799.99,
+      "discount": {
+        "type": "shipping"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Laptop",
+      "brand": "ABC",
+      "price": 1299.99
+    },
+    {
+      "id": "3",
+      "name": "Headphones",
+      "brand": "DEF",
+      "price": 99.99
+    },
+    {
+      "id": "4",
+      "name": "Smartwatch",
+      "brand": "GHI",
+      "price": 199.99
+    },
+    {
+      "id": "6",
+      "name": "Laptop",
+      "brand": "Apple",
+      "price": 1299.99
+    }
+  ],
+  "reviews": [
+    {
+      "product_id": 1,
+      "user": "JohnDoe",
+      "rating": 4.5,
+      "comment": "Great phone, excellent camera quality!",
+      "id": "c666"
+    },
+    {
+      "product_id": 1,
+      "user": "JaneSmith",
+      "rating": 3,
+      "comment": "Battery life could be better.",
+      "id": "24dc"
+    },
+    {
+      "product_id": 2,
+      "user": "MikeJohnson",
+      "rating": 5,
+      "comment": "Fast and reliable, love it!",
+      "id": "7d92"
+    },
+    {
+      "product_id": 2,
+      "user": "EmilyBrown",
+      "rating": 4,
+      "comment": "Great performance, but a bit heavy.",
+      "id": "320b"
+    },
+    {
+      "product_id": 3,
+      "user": "SarahClark",
+      "rating": 4,
+      "comment": "Comfortable and good sound quality.",
+      "id": "d203"
+    },
+    {
+      "product_id": 4,
+      "user": "DavidWilson",
+      "rating": 4.5,
+      "comment": "Stylish design and useful features.",
+      "id": "37f5"
+    },
+    {
+      "product_id": 5,
+      "user": "RachelGreen",
+      "rating": 3.5,
+      "comment": "Decent tablet for the price.",
+      "id": "ac29"
+    },
+    {
+      "product_id": 5,
+      "user": "ChrisAdams",
+      "rating": 4,
+      "comment": "Good battery life and display.",
+      "id": "f5e9"
+    }
+  ]
+}
