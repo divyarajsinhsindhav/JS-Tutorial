@@ -1,0 +1,2 @@
+strict mode => https://javascript.info/strict-mode
+lexical Scope => https://www.freecodecamp.org/news/javascript-lexical-scope-tutorial/
