@@ -22,3 +22,16 @@ setTimeout(function() {
 setTimeout(() => {
     console.log("Arrow function");
 }, 2000)
+
+
+//Use Promise is better then this method 
+//This is called pyramid of doom
+//This is callback hell
+const cart = ["iMac", "Vision", "iPod"];
+createOrder(cart, function(orderId) {
+    proceedTopayment(orderId, function(paymentInfo) {
+        showOrderSummery(paymentInfo, function() {
+            updateWalletBalance();
+        })
+    });
+})
