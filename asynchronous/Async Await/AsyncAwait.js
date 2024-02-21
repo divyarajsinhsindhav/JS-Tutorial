@@ -14,3 +14,13 @@ data.then((res) => {
     console.log(res);
 })
 
+const p = new Promise((resolve, reject) => {
+    resolve("Promise Resolved Value");
+})
+
+//await can only be used inside an async function
+async function handlePromise() {
+    const val = await p; //Instead of using .then use await
+    console.log(val);
+}
+handlePromise();
