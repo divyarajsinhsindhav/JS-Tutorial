@@ -31,6 +31,8 @@ async function testAsync1() {
 testAsync1();
 
 //Here both promise is different 
+//If we resolve promiseTest1 with 10sec timeout then both resolve after 10sec
+//If we resolve promiseTest2 with 5sec timeout then it's first resolve and then give promiseTest1 resolve.
 async function testAsync2() {
     const p1 = await promiseTest1;
     console.log("testAsync2: " + p1);
